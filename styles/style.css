@@ -73,9 +73,6 @@ nav li a {
     background-image: url(../images/Group\ 14.png);
     width: 901px;
     height: 700px;
-
-
-
 }
 
 .banner-header {
@@ -84,7 +81,6 @@ nav li a {
     font-weight: 600;
     text-align: center;
     margin-top: 150px;
-
 }
 
 .banner-title {
@@ -101,8 +97,6 @@ nav li a {
 
 ol {
     display: grid;
-
-
 }
 
 ol li {
@@ -127,7 +121,6 @@ ol li {
     margin-right: 23px;
     margin-left: 240px;
 
-
 }
 
 .go {
@@ -140,4 +133,60 @@ ol li {
     border: 0;
     margin-top: 60px;
 
+}
+
+/* We are gamer style part */
+.first-section {
+    display: flex;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 55px 240px;
+}
+
+.gamer-image {
+    width: 868px;
+    height: 489px;
+
+}
+
+.gamer-section {
+    text-align: right;
+}
+
+.gamer-header {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 96px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-paragraph {
+    color: #534C64;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.gamer-button {
+    padding: 21px 40px;
+    border: 0;
+    margin-top: 32px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.quote {
+    color: #534C64;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
 }
